@@ -9,8 +9,7 @@ const LeftContainer = () => {
     let path = window.location.pathname.split("/")
     let position = path.length-1
     let confronto = path[position]
-    console.log(confronto)
-    let urlImg = "../../../../assets/destination/image-europa.png"
+    let urlImg 
 
     switch(confronto) {
         case "Europa":

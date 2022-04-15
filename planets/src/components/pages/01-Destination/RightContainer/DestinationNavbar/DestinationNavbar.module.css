@@ -18,7 +18,7 @@
     border-bottom: solid 2px white;
 }
 
-span {
+.divStyle span {
     color: white;
     font-family: 'Open Sans Condensed';
     font-size: 15px;

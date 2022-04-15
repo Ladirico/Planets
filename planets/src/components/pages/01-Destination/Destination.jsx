@@ -13,7 +13,7 @@ const Destination = () => {
     },[])
 
     return (
-        <SinglePage bgImg={backg} underTitle={["01", "pick your destination"]} rigthPart={<RightContainer destinations={des}/>} leftPart={<LeftContainer/>}></SinglePage>
+        <SinglePage bgImg={backg} underTitle={["01", "pick your destination"]} rigthPart={<RightContainer destinations={des}/>} leftPart={<LeftContainer/>}/>
     )
 }
 export default Destination;

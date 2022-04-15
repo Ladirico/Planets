@@ -19,13 +19,3 @@ const DestinationNavbar = ({destinations}) => {
 }
 
 export default DestinationNavbar;
-
-/*    <div className={container}>
-            {destinations.map((el, index) => {
-                return(
-                <div className={divStyle}>
-                 <Link to= {`/destination/${el.name}`} className={noUnderLine}><span>{el.name}</span></Link>
-            </div>
-            
-            )})}
-        </div> */

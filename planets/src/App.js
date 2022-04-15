@@ -3,6 +3,8 @@ import ContentContainer from './components/contents/fixed/ContentContainer/Conte
 import Navbar from './components/contents/fixed/Navbar/Navbar';
 
 function App() {
+
+  //json-server --watch server.json --port 3001
   return (
     <div className="App">
       <Navbar/>
