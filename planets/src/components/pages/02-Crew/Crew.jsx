@@ -3,7 +3,7 @@ import SinglePage from "../../contents/singlePage/SinglePage";
 
 const Crew = () => {
     return (
-            <SinglePage bgImg={backg}></SinglePage>
+            <SinglePage bgImg={backg} underTitle={["02", "meet your crew"]}></SinglePage>
         )
 }
 export default Crew;

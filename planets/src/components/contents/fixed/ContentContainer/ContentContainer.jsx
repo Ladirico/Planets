@@ -10,7 +10,7 @@ const ContentContainer = () => {
         <div className={container}>
                 <Switch>
                     <Route path="/" exact component={Home} />
-                    <Route path="/destination" component={Destination}/>
+                    <Route path="/destination/:name" component={Destination}/>
                     <Route path="/crew" component={Crew}/>
                     <Route path="/technology" component={Technology}/>
                 </Switch>

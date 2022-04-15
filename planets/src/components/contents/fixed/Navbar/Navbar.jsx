@@ -1,4 +1,4 @@
-import { container, containerLogo, logoImg, containerLine, line, containerLinks, secondContainerLinks, divStyle, spanNum, spanCont } from './Navbar.module.css'
+import { container, containerLogo, logoImg, containerLine, line, containerLinks, secondContainerLinks, noUnderLine, divStyle, spanNum, spanCont } from './Navbar.module.css'
 import logo from '../../../../assets/shared/logo.svg'
 import {
     BrowserRouter as Router,
@@ -22,25 +22,25 @@ const Navbar = () => {
                 <div className={secondContainerLinks}>
 
                     <div className={divStyle}>
-                        <Link to="/">
+                        <Link to="/" className={noUnderLine}>
                             <span className={spanNum}>00</span> <span className={spanCont}> HOME</span>
                         </Link>
                     </div>
 
                     <div className={divStyle}>
-                        <Link to="/destination">
+                        <Link to="/destination/Moon" className={noUnderLine}>
                             <span className={spanNum}>01</span> <span className={spanCont}> DESTINATION</span>
                         </Link>
                     </div>
 
                     <div className={divStyle}>
-                        <Link to="/crew">
+                        <Link to="/crew" className={noUnderLine}>
                             <span className={spanNum}>02</span> <span className={spanCont}> CREW</span>
                         </Link>
                     </div>
 
                     <div className={divStyle}>
-                        <Link to="/technology">
+                        <Link to="/technology" className={noUnderLine}>
                             <span className={spanNum}>03</span> <span className={spanCont}> TECHNOLOGY</span>
                         </Link>
                     </div>

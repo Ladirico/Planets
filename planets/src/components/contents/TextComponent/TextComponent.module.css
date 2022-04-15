@@ -1,0 +1,30 @@
+h4, p {
+    color: rgb(209, 199, 199);
+    font-family: 'Open Sans Condensed';
+    text-align: left;
+}
+
+h4 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+h1 {
+    font-size: 70px;
+    margin: 0px;
+    color: white;
+    font-family: 'Raleway';
+    text-align: left;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+}
+
+.wrapperTxts{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.separator{
+    height: 20px;
+}

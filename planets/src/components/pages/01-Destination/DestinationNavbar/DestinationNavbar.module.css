@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    width: 60%;
+}
+
+.divStyle{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divStyle:focus-within{
+    border-bottom: solid 2px white;
+}
+
+span {
+    color: white;
+    font-family: 'Open Sans Condensed';
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.noUnderLine{
+    text-decoration: none;
+}
